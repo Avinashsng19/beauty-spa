@@ -1,0 +1,178 @@
+/* === Ipad pro Media === */
+@media (max-width: 1200px) {
+  .filterbox {
+    padding: 30px 40px;
+  }
+}
+
+@media (max-width: 1030px) {
+  /* === Header Section === */
+  .header .navbar-nav a.nav-link {
+    padding: 0.8rem 1rem;
+  }
+
+  /* === Banner CSS === */
+  .banner_content h4 {
+    padding-top: 6rem;
+  }
+  .banner_content h2 {
+    font-size: 3.3rem;
+  }
+  .bg-hero {
+    min-height: 510px;
+  }
+
+  /* === Gallery CSS === */
+  .gallery {
+    clip-path: polygon(100% 0, 100% 0, 100% 97%, 38% 99%, 0 100%, 0 3%);
+  }
+
+  /*== Footer CSS ==*/
+  .footer {
+    clip-path: polygon(68% 1%, 100% 0, 100% 97%, 100% 100%, 0 100%, 0 3%);
+  }
+}
+
+/* === Ipad pro Media === */
+@media (max-width: 992px) {
+  /* === Mobile Menu Icon ===*/
+  .menu-toggle {
+    position: relative;
+  }
+  .menu-toggle span {
+    width: 2rem;
+    height: 0.2rem;
+    display: block;
+    background-color: var(--primary-color);
+    margin: 0.35rem;
+    -webkit-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .menu-toggle.active span:nth-child(1) {
+    transform: rotate(45deg);
+    position: relative;
+    top: 0.2rem;
+  }
+  .menu-toggle.active span:nth-child(2) {
+    display: none;
+  }
+  .menu-toggle.active span:nth-child(3) {
+    transform: rotate(-45deg);
+    position: relative;
+    top: 0.2rem;
+  }
+  #navbarSupportedContent ul {
+    text-align: center;
+  }
+  /* === Banner CSS === */
+  .banner_content h4 {
+    padding-top: 4rem;
+    font-size: 2rem;
+  }
+  .banner_content h2 {
+    font-size: 2.5rem;
+    width: 100%;
+  }
+  .bg-hero {
+    min-height: 450px;
+  }
+
+  /* === Gallery CSS === */
+  .section-head {
+    margin-bottom: 0rem;
+  }
+  .section-head p {
+    margin-bottom: 1.5rem;
+  }
+  .gallery .section-head p {
+    margin-bottom: 0;
+  }
+  .main-wrap {
+    padding: 32px 0px 40px;
+  }
+  .filter-tabs {
+    padding: 0.938rem 0 0;
+  }
+  .filterbox {
+    padding: 30px 15px;
+  }
+  .content {
+    grid-gap: 12px;
+  }
+  .navigation a {
+    padding: 9px 12px;
+  }
+
+  /* === Team === */
+  .our-team{
+    margin-bottom: 30px;
+  }
+}
+
+/* === Mobile Media === */
+@media (max-width: 767px) {
+  /* === Header Section === */
+  .header .navbar {
+    padding: 0.5rem 0;
+  }
+  /* === Banner CSS ===  */
+  .bg-hero {
+    clip-path: polygon(68% 0, 100% 0, 100% 97%, 38% 99%, 0 100%, 0 0);
+  }
+
+  /* === Feature CSS === */
+  .features {
+    clip-path: polygon(100% 0, 100% 0, 100% 97%, 38% 99%, 0 100%, 0 3%);
+  }
+  .footer-widget{
+    margin-top: 2rem;
+  }
+
+  /* === Gallery CSS === */
+  .shot-thumbnail {
+    margin-top: 20px;
+  }
+  .filter-tabs {
+    flex-wrap: wrap;
+  }
+  .filter-sort {
+    width: 100%;
+  }
+  .navigation {
+    display: flex;
+    overflow-x: scroll;
+    margin-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .navigation::-webkit-scrollbar {
+    width: 10px;
+    height: 6px;
+  }
+  .navigation::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  .navigation::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  .navigation::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  .navigation a {
+    white-space: nowrap;
+  }
+  .gallery {
+    padding: 3rem 0;
+    clip-path: polygon(0% 0, 100% 0, 100% 98%, 38% 99.3%, 0 100%, 0 3%);
+  }
+}
+
+/* === Mobile Media === */
+@media (max-width: 576px) {
+  .px-0 {
+    padding: 0;
+  }
+}
